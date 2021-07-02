@@ -1,0 +1,187 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: azure;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header {
+  background: black;
+  display: block;
+  width: 100vw;
+  height: 48px;
+}
+
+.header > ul {
+  padding: 0;
+  margin: 0;
+  height: 48px;
+}
+
+.header > ul > li {
+  display: inline-block;
+}
+
+.header > ul > li > a {
+  text-decoration: none;
+  color: #0084ff;
+  font-size: 25px;
+  line-height: 48px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.main {
+  background: #a3a3a3;
+  display: block;
+  width: 100vw;
+  min-height: 90vh;
+}
+
+.main > .messages {
+  background: #616161;
+  display: block;
+  width: 100%;
+  max-height: 70vh;
+  padding: 15px;
+  overflow-y: visible;
+}
+
+.main > .messages > .message {
+  display: block;
+  background: #397f9b;
+  padding: 5px;
+  width: fit-content;
+  min-width: 200px;
+  max-width: 100%;
+  border-radius: 15px;
+  margin: 10px 10px 25px 0;
+  box-shadow: black 1px 1px 6px;
+  color: #424242;
+}
+
+.main > .messages > .message > .author {
+  font-weight: bold;
+  color: #bdbdbd;
+}
+
+.main > .messages > .message > .text {
+  padding: 5px;
+  color: #dfdfdf;
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.main > .messages > .message > .date {
+  color: #aaaaaa;
+  font-size: 12px;
+  float: right;
+}
+
+.message-input > form > input[name=name] {
+  display: block;
+  width: 90%;
+  height: 40px;
+  font-size: 35px;
+  margin: 15px auto;
+  border-radius: 5px;
+  border: 0;
+  text-align: center;
+  box-shadow: black 1px 1px 6px;
+}
+
+.message-input > form > .text-send {
+  position: relative;
+  background-color: white;
+  width: 90%;
+  margin: 15px auto;
+  box-shadow: black 1px 1px 6px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.message-input > form > .text-send .line {
+  display: block;
+  position: absolute;
+  width: 89%;
+  height: 90%;
+  left: 0.5%;
+  top: 5%;
+  pointer-events: none;
+  border-radius: 5px;
+}
+
+.message-input > form > .text-send > input[name=message] {
+  background-color: transparent;
+  display: block;
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  font-size: 25px;
+  border: 0;
+  text-align: center;
+  left: 0;
+  top: 0;
+}
+
+.message-input > form > .text-send > input[name=message]:active {
+  border: 0;
+  outline: none;
+}
+
+.message-input > form > .text-send > input[name=message]:focus ~ .line {
+  border: 2px solid #0084ff;
+}
+
+.message-input > form > .text-send > input[name=message]:focus {
+  border: 0;
+  outline: none;
+}
+
+.message-input > form > .text-send > input[type=submit] {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 10%;
+  height: 100%;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 0;
+  text-align: center;
+  font-weight: bold;
+  background-color: #0084ff;
+  color: white;
+  box-shadow: black 1px 1px 6px;
+}
+
+.message-input > form > input[type=submit]:hover {
+  color: #18ca00;
+}
+
+@media screen and (min-width: 600px) {
+  .main > .messages {
+    width: 50%;
+    margin: 15px auto;
+    border-radius: 5px;
+  }
+
+  .message-input > form > input[name=name] {
+    width: 250px;
+    height: 60px;
+  }
+
+  .message-input > form > .text-send {
+    width: 400px;
+    height: 60px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
