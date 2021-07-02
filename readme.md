@@ -17,7 +17,7 @@
 - [database/migrations/tchat.php](https://github.com/JeCodeLeSoir/Tchat_laravel/tree/main/database/migrations/2021_06_22_122259_tchat.php)
 
 
-<img src="https://github.com/JeCodeLeSoir/Tchat_laravel/preview.PNG" width="400" height="auto" alt="BigClown Logo" align="right">
+<img src="https://github.com/JeCodeLeSoir/Tchat_laravel/tree/main/preview.PNG" width="400" height="auto" alt="preview" align="right">
 
 
 *💻 [JeCodeLeSoir](https://github.com/JeCodeLeSoir/)*
