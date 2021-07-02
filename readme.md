@@ -5,12 +5,12 @@
 
 # Views
 
-- [views/base.blade.php](https://github.com/JeCodeLeSoir/Tchat_laravel/tree/main/views/base.blade.php)
-- [views/pages/tchat.blade.php](https://github.com/JeCodeLeSoir/Tchat_laravel/tree/main/views/pages/tchat.blade.php)
+- [views/base.blade.php](https://github.com/JeCodeLeSoir/Tchat_laravel/tree/main/resources/views/base.blade.php)
+- [views/pages/tchat.blade.php](https://github.com/JeCodeLeSoir/Tchat_laravel/tree/main/resources/views/pages/tchat.blade.php)
 
 # Logic Php / js
 
-- [js/app.js](https://github.com/JeCodeLeSoir/Tchat_laravel/tree/main/js/app.js)
+- [js/app.js](https://github.com/JeCodeLeSoir/Tchat_laravel/tree/main/public/js/app.js)
 - [routes/web.php](https://github.com/JeCodeLeSoir/Tchat_laravel/tree/main/routes/web.php)
 - [app/controllers/tchat/tchatController.php](https://github.com/JeCodeLeSoir/Tchat_laravel/tree/main/app/controllers/tchat/tchatController.php)
 - [models/tchatModel.php](https://github.com/JeCodeLeSoir/Tchat_laravel/tree/main/models/tchatModel.php)
